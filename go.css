@@ -1,0 +1,13 @@
+@tailwind base; 
+@tailwind components;   
+@tailwind utilities;
+
+.navItems {
+  @apply text-lg font-bold text-white;
+}
+.special {
+  @apply text-yellow-100;
+}
+.nava {
+  @apply hover:bg-gray-100 hover:text-yellow-700 ;
+}

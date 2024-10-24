@@ -1,0 +1,26 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "tailwind assignment",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "try": "tailwindcss -i ./go.css -o ./frontend/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulsergent/tailwind.git"
+  },
+  "author": "Paul Sergent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulsergent/tailwind/issues"
+  },
+  "homepage": "https://github.com/paulsergent/tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
